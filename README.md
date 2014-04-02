@@ -4,9 +4,9 @@ Did you ever want to create a UITabBar like control that doesn't really need UIT
 
 ##ScreenShots
 
-<p align="center"><img src="https://github.com/wzbozon/DKToolbar/blob/master/ScreenShops/DKToolbar_horizontal.png?raw=true"></p>
+<p align="center"><img src="https://github.com/wzbozon/DKToolbar/blob/master/ScreenShots/DKToolbar_horizontal.png?raw=true"></p>
 
-<p align="center"><img src="https://github.com/wzbozon/DKToolbar/blob/master/ScreenShops/DKToolbar_vertical.png?raw=true"></p>
+<p align="center"><img src="https://github.com/wzbozon/DKToolbar/blob/master/ScreenShots/DKToolbar_vertical.png?raw=true"></p>
 
 ###Supported iOS Versions 
 It supports iOS 6.0 and higher.
@@ -14,6 +14,11 @@ It supports iOS 6.0 and higher.
 ##How to use
 
 There is a sample project of a universal app for iPhone and iPad.
+
+Best way to add source code is via Cocoapods: 
+```
+pod 'DKToolbar'
+```
 
 Sample Code: 
 ```
