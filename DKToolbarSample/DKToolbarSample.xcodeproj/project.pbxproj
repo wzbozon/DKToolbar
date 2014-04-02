@@ -24,7 +24,6 @@
 		F814510D18EC29960053F7FD /* DKToolbarSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F814510C18EC29960053F7FD /* DKToolbarSampleTests.m */; };
 		F814511B18EC2BD90053F7FD /* DKToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = F814511818EC2BD90053F7FD /* DKToolbar.m */; };
 		F814511C18EC2BD90053F7FD /* DKToolbarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F814511A18EC2BD90053F7FD /* DKToolbarItem.m */; };
-		F814512018EC2C950053F7FD /* UIButton+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F814511F18EC2C950053F7FD /* UIButton+Extensions.m */; };
 		F814512A18EC2EDF0053F7FD /* VacancyToolbarIconAddContact.png in Resources */ = {isa = PBXBuildFile; fileRef = F814512218EC2EDF0053F7FD /* VacancyToolbarIconAddContact.png */; };
 		F814512B18EC2EDF0053F7FD /* VacancyToolbarIconAddContact@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F814512318EC2EDF0053F7FD /* VacancyToolbarIconAddContact@2x.png */; };
 		F814512C18EC2EDF0053F7FD /* VacancyToolbarIconNoResumeResponse.png in Resources */ = {isa = PBXBuildFile; fileRef = F814512418EC2EDF0053F7FD /* VacancyToolbarIconNoResumeResponse.png */; };
@@ -33,6 +32,7 @@
 		F814512F18EC2EDF0053F7FD /* VacancyToolbarIconPhoneCall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F814512718EC2EDF0053F7FD /* VacancyToolbarIconPhoneCall@2x.png */; };
 		F814513018EC2EDF0053F7FD /* VacancyToolbarIconResponse.png in Resources */ = {isa = PBXBuildFile; fileRef = F814512818EC2EDF0053F7FD /* VacancyToolbarIconResponse.png */; };
 		F814513118EC2EDF0053F7FD /* VacancyToolbarIconResponse@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F814512918EC2EDF0053F7FD /* VacancyToolbarIconResponse@2x.png */; };
+		F814513818EC82220053F7FD /* UIButton+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F814513718EC82220053F7FD /* UIButton+Extensions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,8 +70,6 @@
 		F814511818EC2BD90053F7FD /* DKToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKToolbar.m; sourceTree = "<group>"; };
 		F814511918EC2BD90053F7FD /* DKToolbarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKToolbarItem.h; sourceTree = "<group>"; };
 		F814511A18EC2BD90053F7FD /* DKToolbarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKToolbarItem.m; sourceTree = "<group>"; };
-		F814511E18EC2C950053F7FD /* UIButton+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extensions.h"; sourceTree = "<group>"; };
-		F814511F18EC2C950053F7FD /* UIButton+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extensions.m"; sourceTree = "<group>"; };
 		F814512218EC2EDF0053F7FD /* VacancyToolbarIconAddContact.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VacancyToolbarIconAddContact.png; sourceTree = "<group>"; };
 		F814512318EC2EDF0053F7FD /* VacancyToolbarIconAddContact@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VacancyToolbarIconAddContact@2x.png"; sourceTree = "<group>"; };
 		F814512418EC2EDF0053F7FD /* VacancyToolbarIconNoResumeResponse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VacancyToolbarIconNoResumeResponse.png; sourceTree = "<group>"; };
@@ -80,6 +78,8 @@
 		F814512718EC2EDF0053F7FD /* VacancyToolbarIconPhoneCall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VacancyToolbarIconPhoneCall@2x.png"; sourceTree = "<group>"; };
 		F814512818EC2EDF0053F7FD /* VacancyToolbarIconResponse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VacancyToolbarIconResponse.png; sourceTree = "<group>"; };
 		F814512918EC2EDF0053F7FD /* VacancyToolbarIconResponse@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VacancyToolbarIconResponse@2x.png"; sourceTree = "<group>"; };
+		F814513618EC82220053F7FD /* UIButton+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extensions.h"; sourceTree = "<group>"; };
+		F814513718EC82220053F7FD /* UIButton+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extensions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +109,6 @@
 		F81450D218EC29960053F7FD = {
 			isa = PBXGroup;
 			children = (
-				F814511D18EC2C950053F7FD /* UIButton+Extensions */,
 				F814511618EC2BD90053F7FD /* DKToolbar */,
 				F81450E418EC29960053F7FD /* DKToolbarSample */,
 				F814510618EC29960053F7FD /* DKToolbarSampleTests */,
@@ -186,6 +185,8 @@
 		F814511618EC2BD90053F7FD /* DKToolbar */ = {
 			isa = PBXGroup;
 			children = (
+				F814513618EC82220053F7FD /* UIButton+Extensions.h */,
+				F814513718EC82220053F7FD /* UIButton+Extensions.m */,
 				F814511718EC2BD90053F7FD /* DKToolbar.h */,
 				F814511818EC2BD90053F7FD /* DKToolbar.m */,
 				F814511918EC2BD90053F7FD /* DKToolbarItem.h */,
@@ -193,16 +194,6 @@
 			);
 			name = DKToolbar;
 			path = ../DKToolbar;
-			sourceTree = "<group>";
-		};
-		F814511D18EC2C950053F7FD /* UIButton+Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				F814511E18EC2C950053F7FD /* UIButton+Extensions.h */,
-				F814511F18EC2C950053F7FD /* UIButton+Extensions.m */,
-			);
-			name = "UIButton+Extensions";
-			path = "../UIButton+Extensions";
 			sourceTree = "<group>";
 		};
 		F814512118EC2EDF0053F7FD /* VacancyToolbarIcon */ = {
@@ -328,7 +319,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F814511B18EC2BD90053F7FD /* DKToolbar.m in Sources */,
-				F814512018EC2C950053F7FD /* UIButton+Extensions.m in Sources */,
+				F814513818EC82220053F7FD /* UIButton+Extensions.m in Sources */,
 				F81450EB18EC29960053F7FD /* main.m in Sources */,
 				F81450F818EC29960053F7FD /* DKViewController.m in Sources */,
 				F81450EF18EC29960053F7FD /* DKAppDelegate.m in Sources */,
