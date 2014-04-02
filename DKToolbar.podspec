@@ -14,6 +14,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.ios.deployment_target = '6.0'
   s.source       = { :git => "https://github.com/wzbozon/DKToolbar.git", :tag => "0.0.4" }
-  s.source_files  = 'DKToolbar'
+  s.source_files  = 'DKToolbar', 'UIButton+Extensions'
   s.exclude_files = 'DKToolbar/Exclude'
 end
