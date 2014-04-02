@@ -48,10 +48,13 @@
 @end
 
 
-@interface DKToolbar : UIView
+@interface DKToolbar : UIView {
+    
+    id <DKToolbarDelegate> _delegate;
+    
+}
 
 @property (nonatomic, strong) NSArray *items;
-@property (nonatomic, weak) id <DKToolbarDelegate> delegate;
 @property (nonatomic, strong) UIColor *itemBackgroundColor;
 
 // Creates and adds a toolbar as a subview to your view. It calculates all frames automatically.

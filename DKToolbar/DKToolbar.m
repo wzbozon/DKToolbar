@@ -103,7 +103,7 @@
         index ++;
     }
     
-    [self.delegate toolbarItemClickedAtIndex:index];
+    [_delegate toolbarItemClickedAtIndex:index];
 }
 
 

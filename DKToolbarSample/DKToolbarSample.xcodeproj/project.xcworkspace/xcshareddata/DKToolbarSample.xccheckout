@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C041ED85-1B18-4F95-B574-A4D460E8A0C9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DKToolbarSample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B113EC3E-1C7E-48DC-9BCE-136DF390BFFE</key>
+		<string>https://github.com/wzbozon/DKToolbar.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DKToolbarSample/DKToolbarSample.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B113EC3E-1C7E-48DC-9BCE-136DF390BFFE</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/wzbozon/DKToolbar.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B113EC3E-1C7E-48DC-9BCE-136DF390BFFE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B113EC3E-1C7E-48DC-9BCE-136DF390BFFE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DKToolbar</string>
+		</dict>
+	</array>
+</dict>
+</plist>
