@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F81450DF18EC29960053F7FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F81450DE18EC29960053F7FD /* Foundation.framework */; };
+		F81450E118EC29960053F7FD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F81450E018EC29960053F7FD /* CoreGraphics.framework */; };
+		F81450E318EC29960053F7FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F81450E218EC29960053F7FD /* UIKit.framework */; };
+		F81450E918EC29960053F7FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F81450E718EC29960053F7FD /* InfoPlist.strings */; };
+		F81450EB18EC29960053F7FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F81450EA18EC29960053F7FD /* main.m */; };
+		F81450EF18EC29960053F7FD /* DKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F81450EE18EC29960053F7FD /* DKAppDelegate.m */; };
+		F81450F218EC29960053F7FD /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F81450F018EC29960053F7FD /* Main_iPhone.storyboard */; };
+		F81450F518EC29960053F7FD /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F81450F318EC29960053F7FD /* Main_iPad.storyboard */; };
+		F81450F818EC29960053F7FD /* DKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F81450F718EC29960053F7FD /* DKViewController.m */; };
+		F81450FA18EC29960053F7FD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F81450F918EC29960053F7FD /* Images.xcassets */; };
+		F814510118EC29960053F7FD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F814510018EC29960053F7FD /* XCTest.framework */; };
+		F814510218EC29960053F7FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F81450DE18EC29960053F7FD /* Foundation.framework */; };
+		F814510318EC29960053F7FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F81450E218EC29960053F7FD /* UIKit.framework */; };
+		F814510B18EC29960053F7FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F814510918EC29960053F7FD /* InfoPlist.strings */; };
+		F814510D18EC29960053F7FD /* DKToolbarSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F814510C18EC29960053F7FD /* DKToolbarSampleTests.m */; };
+		F814511B18EC2BD90053F7FD /* DKToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = F814511818EC2BD90053F7FD /* DKToolbar.m */; };
+		F814511C18EC2BD90053F7FD /* DKToolbarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F814511A18EC2BD90053F7FD /* DKToolbarItem.m */; };
+		F814512018EC2C950053F7FD /* UIButton+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F814511F18EC2C950053F7FD /* UIButton+Extensions.m */; };
+		F814512A18EC2EDF0053F7FD /* VacancyToolbarIconAddContact.png in Resources */ = {isa = PBXBuildFile; fileRef = F814512218EC2EDF0053F7FD /* VacancyToolbarIconAddContact.png */; };
+		F814512B18EC2EDF0053F7FD /* VacancyToolbarIconAddContact@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F814512318EC2EDF0053F7FD /* VacancyToolbarIconAddContact@2x.png */; };
+		F814512C18EC2EDF0053F7FD /* VacancyToolbarIconNoResumeResponse.png in Resources */ = {isa = PBXBuildFile; fileRef = F814512418EC2EDF0053F7FD /* VacancyToolbarIconNoResumeResponse.png */; };
+		F814512D18EC2EDF0053F7FD /* VacancyToolbarIconNoResumeResponse@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F814512518EC2EDF0053F7FD /* VacancyToolbarIconNoResumeResponse@2x.png */; };
+		F814512E18EC2EDF0053F7FD /* VacancyToolbarIconPhoneCall.png in Resources */ = {isa = PBXBuildFile; fileRef = F814512618EC2EDF0053F7FD /* VacancyToolbarIconPhoneCall.png */; };
+		F814512F18EC2EDF0053F7FD /* VacancyToolbarIconPhoneCall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F814512718EC2EDF0053F7FD /* VacancyToolbarIconPhoneCall@2x.png */; };
+		F814513018EC2EDF0053F7FD /* VacancyToolbarIconResponse.png in Resources */ = {isa = PBXBuildFile; fileRef = F814512818EC2EDF0053F7FD /* VacancyToolbarIconResponse.png */; };
+		F814513118EC2EDF0053F7FD /* VacancyToolbarIconResponse@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F814512918EC2EDF0053F7FD /* VacancyToolbarIconResponse@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F814510418EC29960053F7FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F81450D318EC29960053F7FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F81450DA18EC29960053F7FD;
+			remoteInfo = DKToolbarSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F81450DB18EC29960053F7FD /* DKToolbarSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DKToolbarSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F81450DE18EC29960053F7FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F81450E018EC29960053F7FD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F81450E218EC29960053F7FD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F81450E618EC29960053F7FD /* DKToolbarSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DKToolbarSample-Info.plist"; sourceTree = "<group>"; };
+		F81450E818EC29960053F7FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F81450EA18EC29960053F7FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F81450EC18EC29960053F7FD /* DKToolbarSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DKToolbarSample-Prefix.pch"; sourceTree = "<group>"; };
+		F81450ED18EC29960053F7FD /* DKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKAppDelegate.h; sourceTree = "<group>"; };
+		F81450EE18EC29960053F7FD /* DKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKAppDelegate.m; sourceTree = "<group>"; };
+		F81450F118EC29960053F7FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		F81450F418EC29960053F7FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		F81450F618EC29960053F7FD /* DKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKViewController.h; sourceTree = "<group>"; };
+		F81450F718EC29960053F7FD /* DKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKViewController.m; sourceTree = "<group>"; };
+		F81450F918EC29960053F7FD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F81450FF18EC29960053F7FD /* DKToolbarSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DKToolbarSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F814510018EC29960053F7FD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F814510818EC29960053F7FD /* DKToolbarSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DKToolbarSampleTests-Info.plist"; sourceTree = "<group>"; };
+		F814510A18EC29960053F7FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F814510C18EC29960053F7FD /* DKToolbarSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKToolbarSampleTests.m; sourceTree = "<group>"; };
+		F814511718EC2BD90053F7FD /* DKToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKToolbar.h; sourceTree = "<group>"; };
+		F814511818EC2BD90053F7FD /* DKToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKToolbar.m; sourceTree = "<group>"; };
+		F814511918EC2BD90053F7FD /* DKToolbarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKToolbarItem.h; sourceTree = "<group>"; };
+		F814511A18EC2BD90053F7FD /* DKToolbarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKToolbarItem.m; sourceTree = "<group>"; };
+		F814511E18EC2C950053F7FD /* UIButton+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extensions.h"; sourceTree = "<group>"; };
+		F814511F18EC2C950053F7FD /* UIButton+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extensions.m"; sourceTree = "<group>"; };
+		F814512218EC2EDF0053F7FD /* VacancyToolbarIconAddContact.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VacancyToolbarIconAddContact.png; sourceTree = "<group>"; };
+		F814512318EC2EDF0053F7FD /* VacancyToolbarIconAddContact@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VacancyToolbarIconAddContact@2x.png"; sourceTree = "<group>"; };
+		F814512418EC2EDF0053F7FD /* VacancyToolbarIconNoResumeResponse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VacancyToolbarIconNoResumeResponse.png; sourceTree = "<group>"; };
+		F814512518EC2EDF0053F7FD /* VacancyToolbarIconNoResumeResponse@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VacancyToolbarIconNoResumeResponse@2x.png"; sourceTree = "<group>"; };
+		F814512618EC2EDF0053F7FD /* VacancyToolbarIconPhoneCall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VacancyToolbarIconPhoneCall.png; sourceTree = "<group>"; };
+		F814512718EC2EDF0053F7FD /* VacancyToolbarIconPhoneCall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VacancyToolbarIconPhoneCall@2x.png"; sourceTree = "<group>"; };
+		F814512818EC2EDF0053F7FD /* VacancyToolbarIconResponse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VacancyToolbarIconResponse.png; sourceTree = "<group>"; };
+		F814512918EC2EDF0053F7FD /* VacancyToolbarIconResponse@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VacancyToolbarIconResponse@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F81450D818EC29960053F7FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F81450E118EC29960053F7FD /* CoreGraphics.framework in Frameworks */,
+				F81450E318EC29960053F7FD /* UIKit.framework in Frameworks */,
+				F81450DF18EC29960053F7FD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F81450FC18EC29960053F7FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F814510118EC29960053F7FD /* XCTest.framework in Frameworks */,
+				F814510318EC29960053F7FD /* UIKit.framework in Frameworks */,
+				F814510218EC29960053F7FD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F81450D218EC29960053F7FD = {
+			isa = PBXGroup;
+			children = (
+				F814511D18EC2C950053F7FD /* UIButton+Extensions */,
+				F814511618EC2BD90053F7FD /* DKToolbar */,
+				F81450E418EC29960053F7FD /* DKToolbarSample */,
+				F814510618EC29960053F7FD /* DKToolbarSampleTests */,
+				F81450DD18EC29960053F7FD /* Frameworks */,
+				F81450DC18EC29960053F7FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F81450DC18EC29960053F7FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F81450DB18EC29960053F7FD /* DKToolbarSample.app */,
+				F81450FF18EC29960053F7FD /* DKToolbarSampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F81450DD18EC29960053F7FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F81450DE18EC29960053F7FD /* Foundation.framework */,
+				F81450E018EC29960053F7FD /* CoreGraphics.framework */,
+				F81450E218EC29960053F7FD /* UIKit.framework */,
+				F814510018EC29960053F7FD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F81450E418EC29960053F7FD /* DKToolbarSample */ = {
+			isa = PBXGroup;
+			children = (
+				F81450ED18EC29960053F7FD /* DKAppDelegate.h */,
+				F81450EE18EC29960053F7FD /* DKAppDelegate.m */,
+				F81450F018EC29960053F7FD /* Main_iPhone.storyboard */,
+				F81450F318EC29960053F7FD /* Main_iPad.storyboard */,
+				F81450F618EC29960053F7FD /* DKViewController.h */,
+				F81450F718EC29960053F7FD /* DKViewController.m */,
+				F81450F918EC29960053F7FD /* Images.xcassets */,
+				F81450E518EC29960053F7FD /* Supporting Files */,
+			);
+			path = DKToolbarSample;
+			sourceTree = "<group>";
+		};
+		F81450E518EC29960053F7FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F814512118EC2EDF0053F7FD /* VacancyToolbarIcon */,
+				F81450E618EC29960053F7FD /* DKToolbarSample-Info.plist */,
+				F81450E718EC29960053F7FD /* InfoPlist.strings */,
+				F81450EA18EC29960053F7FD /* main.m */,
+				F81450EC18EC29960053F7FD /* DKToolbarSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F814510618EC29960053F7FD /* DKToolbarSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				F814510C18EC29960053F7FD /* DKToolbarSampleTests.m */,
+				F814510718EC29960053F7FD /* Supporting Files */,
+			);
+			path = DKToolbarSampleTests;
+			sourceTree = "<group>";
+		};
+		F814510718EC29960053F7FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F814510818EC29960053F7FD /* DKToolbarSampleTests-Info.plist */,
+				F814510918EC29960053F7FD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F814511618EC2BD90053F7FD /* DKToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				F814511718EC2BD90053F7FD /* DKToolbar.h */,
+				F814511818EC2BD90053F7FD /* DKToolbar.m */,
+				F814511918EC2BD90053F7FD /* DKToolbarItem.h */,
+				F814511A18EC2BD90053F7FD /* DKToolbarItem.m */,
+			);
+			name = DKToolbar;
+			path = ../DKToolbar;
+			sourceTree = "<group>";
+		};
+		F814511D18EC2C950053F7FD /* UIButton+Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F814511E18EC2C950053F7FD /* UIButton+Extensions.h */,
+				F814511F18EC2C950053F7FD /* UIButton+Extensions.m */,
+			);
+			name = "UIButton+Extensions";
+			path = "../UIButton+Extensions";
+			sourceTree = "<group>";
+		};
+		F814512118EC2EDF0053F7FD /* VacancyToolbarIcon */ = {
+			isa = PBXGroup;
+			children = (
+				F814512218EC2EDF0053F7FD /* VacancyToolbarIconAddContact.png */,
+				F814512318EC2EDF0053F7FD /* VacancyToolbarIconAddContact@2x.png */,
+				F814512418EC2EDF0053F7FD /* VacancyToolbarIconNoResumeResponse.png */,
+				F814512518EC2EDF0053F7FD /* VacancyToolbarIconNoResumeResponse@2x.png */,
+				F814512618EC2EDF0053F7FD /* VacancyToolbarIconPhoneCall.png */,
+				F814512718EC2EDF0053F7FD /* VacancyToolbarIconPhoneCall@2x.png */,
+				F814512818EC2EDF0053F7FD /* VacancyToolbarIconResponse.png */,
+				F814512918EC2EDF0053F7FD /* VacancyToolbarIconResponse@2x.png */,
+			);
+			path = VacancyToolbarIcon;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F81450DA18EC29960053F7FD /* DKToolbarSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F814511018EC29960053F7FD /* Build configuration list for PBXNativeTarget "DKToolbarSample" */;
+			buildPhases = (
+				F81450D718EC29960053F7FD /* Sources */,
+				F81450D818EC29960053F7FD /* Frameworks */,
+				F81450D918EC29960053F7FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DKToolbarSample;
+			productName = DKToolbarSample;
+			productReference = F81450DB18EC29960053F7FD /* DKToolbarSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F81450FE18EC29960053F7FD /* DKToolbarSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F814511318EC29960053F7FD /* Build configuration list for PBXNativeTarget "DKToolbarSampleTests" */;
+			buildPhases = (
+				F81450FB18EC29960053F7FD /* Sources */,
+				F81450FC18EC29960053F7FD /* Frameworks */,
+				F81450FD18EC29960053F7FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F814510518EC29960053F7FD /* PBXTargetDependency */,
+			);
+			name = DKToolbarSampleTests;
+			productName = DKToolbarSampleTests;
+			productReference = F81450FF18EC29960053F7FD /* DKToolbarSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F81450D318EC29960053F7FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DK;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Dennis Kutlubaev";
+				TargetAttributes = {
+					F81450FE18EC29960053F7FD = {
+						TestTargetID = F81450DA18EC29960053F7FD;
+					};
+				};
+			};
+			buildConfigurationList = F81450D618EC29960053F7FD /* Build configuration list for PBXProject "DKToolbarSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F81450D218EC29960053F7FD;
+			productRefGroup = F81450DC18EC29960053F7FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F81450DA18EC29960053F7FD /* DKToolbarSample */,
+				F81450FE18EC29960053F7FD /* DKToolbarSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F81450D918EC29960053F7FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F814512C18EC2EDF0053F7FD /* VacancyToolbarIconNoResumeResponse.png in Resources */,
+				F814512A18EC2EDF0053F7FD /* VacancyToolbarIconAddContact.png in Resources */,
+				F814513118EC2EDF0053F7FD /* VacancyToolbarIconResponse@2x.png in Resources */,
+				F814512E18EC2EDF0053F7FD /* VacancyToolbarIconPhoneCall.png in Resources */,
+				F81450F518EC29960053F7FD /* Main_iPad.storyboard in Resources */,
+				F814512B18EC2EDF0053F7FD /* VacancyToolbarIconAddContact@2x.png in Resources */,
+				F814513018EC2EDF0053F7FD /* VacancyToolbarIconResponse.png in Resources */,
+				F814512D18EC2EDF0053F7FD /* VacancyToolbarIconNoResumeResponse@2x.png in Resources */,
+				F814512F18EC2EDF0053F7FD /* VacancyToolbarIconPhoneCall@2x.png in Resources */,
+				F81450FA18EC29960053F7FD /* Images.xcassets in Resources */,
+				F81450F218EC29960053F7FD /* Main_iPhone.storyboard in Resources */,
+				F81450E918EC29960053F7FD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F81450FD18EC29960053F7FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F814510B18EC29960053F7FD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F81450D718EC29960053F7FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F814511B18EC2BD90053F7FD /* DKToolbar.m in Sources */,
+				F814512018EC2C950053F7FD /* UIButton+Extensions.m in Sources */,
+				F81450EB18EC29960053F7FD /* main.m in Sources */,
+				F81450F818EC29960053F7FD /* DKViewController.m in Sources */,
+				F81450EF18EC29960053F7FD /* DKAppDelegate.m in Sources */,
+				F814511C18EC2BD90053F7FD /* DKToolbarItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F81450FB18EC29960053F7FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F814510D18EC29960053F7FD /* DKToolbarSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F814510518EC29960053F7FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F81450DA18EC29960053F7FD /* DKToolbarSample */;
+			targetProxy = F814510418EC29960053F7FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F81450E718EC29960053F7FD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F81450E818EC29960053F7FD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F81450F018EC29960053F7FD /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F81450F118EC29960053F7FD /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		F81450F318EC29960053F7FD /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F81450F418EC29960053F7FD /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		F814510918EC29960053F7FD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F814510A18EC29960053F7FD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F814510E18EC29960053F7FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F814510F18EC29960053F7FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F814511118EC29960053F7FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DKToolbarSample/DKToolbarSample-Prefix.pch";
+				INFOPLIST_FILE = "DKToolbarSample/DKToolbarSample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F814511218EC29960053F7FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DKToolbarSample/DKToolbarSample-Prefix.pch";
+				INFOPLIST_FILE = "DKToolbarSample/DKToolbarSample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F814511418EC29960053F7FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DKToolbarSample.app/DKToolbarSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DKToolbarSample/DKToolbarSample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DKToolbarSampleTests/DKToolbarSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F814511518EC29960053F7FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DKToolbarSample.app/DKToolbarSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DKToolbarSample/DKToolbarSample-Prefix.pch";
+				INFOPLIST_FILE = "DKToolbarSampleTests/DKToolbarSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F81450D618EC29960053F7FD /* Build configuration list for PBXProject "DKToolbarSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F814510E18EC29960053F7FD /* Debug */,
+				F814510F18EC29960053F7FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F814511018EC29960053F7FD /* Build configuration list for PBXNativeTarget "DKToolbarSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F814511118EC29960053F7FD /* Debug */,
+				F814511218EC29960053F7FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F814511318EC29960053F7FD /* Build configuration list for PBXNativeTarget "DKToolbarSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F814511418EC29960053F7FD /* Debug */,
+				F814511518EC29960053F7FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F81450D318EC29960053F7FD /* Project object */;
+}
