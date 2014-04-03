@@ -10,9 +10,9 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT', :file => 'FILE_LICENSE' }
   s.author             = { "Denis Kutlubaev" => "kutlubaev.denis@gmail.com" }
   s.social_media_url = "http://twitter.com/wzbozon"
-  s.platform     = :ios
-  s.ios.deployment_target = '6.0'
-  s.source       = { :git => "https://github.com/wzbozon/DKToolbar.git", :tag => "0.0.5" }
+  s.platform     = :ios, '5.1.1'
+  s.ios.deployment_target = '5.1.1'
+  s.source       = { :git => "https://github.com/wzbozon/DKToolbar.git", :tag => "0.0.6" }
   s.source_files  = 'DKToolbar/*.{h,m}'
   s.requires_arc = true
 end
