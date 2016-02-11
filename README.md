@@ -15,7 +15,7 @@ It supports iOS 6.0 and higher.
 
 There is a sample project of a universal app for iPhone and iPad.
 
-Best way to add source code is via Cocoapods: 
+Best way to add source code is via CocoaPods: 
 ```
 pod 'DKToolbar'
 ```
